@@ -1,15 +1,19 @@
 
 $beige: #f9e4b7;
 
+body{
+  margin: 20px
+}
 
 p {
-   background: beige;
-   margin: 10px;
-   margin-right: 30px
+  background: beige;
+  width: 200px;
+  border: 2px black;
+  padding: 20px;
    }
 
 a {
-   color: blue;
+  color: blue;
    &:hover {
      color: red;
    }
